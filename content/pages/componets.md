@@ -3,7 +3,7 @@ template: ComponentsPage
 slug: components
 title: Components
 featuredImage: 'https://ucarecdn.com/2d76b7ba-4d44-404e-809d-75f19b2ea059/'
-subtitle: This is the components page subtitle.
+subtitle: comeon
 section1: >-
   ## This is a container component
 
