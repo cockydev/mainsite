@@ -6,7 +6,7 @@ import Content from '../components/Content'
 import Layout from '../components/Layout'
 
 // Export Template for use in CMS preview
-export const SnippetPageTemplate = ({ title, subtitle, featuredImage, body }) => (
+export const PersonalPageTemplate = ({ title, subtitle, featuredImage, body }) => (
   <main className="Home">
     <PageHeader
       large
@@ -37,7 +37,7 @@ export const pageQuery = graphql`
   ## Use GraphiQL interface (http://localhost:8000/___graphql)
   ## $id is processed via gatsby-node.js
   ## query name must be unique to this file
-  query HomePage($id: String!) {
+  query PersonalPage($id: String!) {
     page: markdownRemark(id: { eq: $id }) {
       ...Meta
       html
