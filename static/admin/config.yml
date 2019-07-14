@@ -241,7 +241,7 @@ collections: # A list of collections the CMS should be able to edit
                   required: false,
                 }
 
-            - file: 'content/pages/howto.md'
+          - file: 'content/pages/howto.md'
             label: 'How To Page'
             name: 'howto-page'
             fields:
@@ -288,7 +288,7 @@ collections: # A list of collections the CMS should be able to edit
                       required: false,
                     }
 
-- file: 'content/pages/personal.md'
+      - file: 'content/pages/personal.md'
         label: 'Personal Page'
         name: 'personal-page'
         fields:
@@ -335,7 +335,7 @@ collections: # A list of collections the CMS should be able to edit
                   required: false,
                 }
 
-                - file: 'content/pages/snippets.md'
+      - file: 'content/pages/snippets.md'
         label: 'Snippets Page'
         name: 'snippets-page'
         fields:
