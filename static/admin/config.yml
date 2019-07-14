@@ -335,9 +335,9 @@ collections: # A list of collections the CMS should be able to edit
                   required: false,
                 }
 
-      - file: 'content/pages/snippets.md'
+      - file: 'content/pages/snippet.md'
         label: 'Snippets Page'
-        name: 'snippets-page'
+        name: 'snippet-page'
         fields:
           - {
               label: Template,
