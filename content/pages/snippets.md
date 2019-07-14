@@ -1,9 +1,9 @@
 ---
 template: SnippetPage
 slug: ''
-title: My Blog
+title: Snippets
 featuredImage: 'https://ucarecdn.com/32c5bffd-3887-44c3-9d32-1cc5ad78925d/'
-subtitle: ' Tsnippets worth noting...'
+subtitle: Snippets go here
 meta:
   description: Snippets
   title: Snippets
